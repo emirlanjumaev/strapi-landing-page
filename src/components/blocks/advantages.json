@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_blocks_advantages",
+  "info": {
+    "displayName": "Advantages",
+    "icon": "lightbulb",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.card"
+    }
+  }
+}
+

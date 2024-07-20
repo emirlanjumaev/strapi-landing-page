@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_elements_price_cards",
+  "info": {
+    "displayName": "PriceCard",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "tarif_name": {
+      "type": "string",
+      "required": true,
+      "unique": false
+    },
+    "price": {
+      "type": "string",
+      "required": true
+    },
+    "isSelect": {
+      "type": "boolean",
+      "default": false
+    },
+    "button_link": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.button-link"
+    },
+    "services": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::service.service"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_blocks_tarifs",
+  "info": {
+    "displayName": "Tarifs"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "plan_tarifs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.price-card"
+    }
+  }
+}
